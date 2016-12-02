@@ -13,6 +13,18 @@ sudo openssl verify -verbose -CAfile ca.crt client.crt
 ## Edit dxlclient.config
 Add Client certs.  Test certs are in /vagrant/certs/
 
+## ePO Certificate Authority (CA) Import
+```
+1. Navigate to Server Settings and select the DXL Certificates setting on the left navigation bar.
+2. Click the Edit button in the lower right corner (as shown in the image above)
+3. Click the Import button in the Client Certificates section (as shown in the image above)
+4. Select the Certificate (For example, ca.crt) for the Certificate Authority (CA) that was created previously.
+5. Click the OK button in the lower right corner (as shown in the image above)
+6. Click the Save button in the lower right corner (as shown in the image above)
+
+The imported Certificate Authority (CA) information will propagate to the DXL brokers. This process can take several minutes to complete.
+```
+
 ## ePO Broker Certificates Export
 ```
 The certificate information for DXL Brokers must be available to DXL clients attempting to connect to the fabric. This certificate information allows clients to ensure the Brokers being connected to are valid (via mutual authentication).
