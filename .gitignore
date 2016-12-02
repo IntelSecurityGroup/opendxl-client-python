@@ -108,3 +108,4 @@ pip-selfcheck.json
 .idea/
 Vagrantfile
 opendxl-client-python.iml
+.vagrant/
