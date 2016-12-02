@@ -20,6 +20,8 @@ from common import *
 logging.getLogger().setLevel(logging.ERROR)
 logger = logging.getLogger(__name__)
 
+CONFIG_FILE = "/vagrant/dxlclient.config"
+
 # The topic for requesting file reputations
 FILE_REP_TOPIC = "/mcafee/service/tie/file/reputation"
 

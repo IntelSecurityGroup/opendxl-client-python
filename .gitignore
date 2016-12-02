@@ -99,7 +99,6 @@ ENV/
 [Ll]ib
 [Ll]ib64
 [Ll]ocal
-[Ss]cripts
 pyvenv.cfg
 .venv
 pip-selfcheck.json
@@ -109,3 +108,5 @@ pip-selfcheck.json
 Vagrantfile
 opendxl-client-python.iml
 .vagrant/
+brokercerts
+dxlclient.config

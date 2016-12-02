@@ -19,6 +19,8 @@ from common import *
 logging.getLogger().setLevel(logging.ERROR)
 logger = logging.getLogger(__name__)
 
+CONFIG_FILE = "/vagrant/dxlclient.config"
+
 # The topic for the service to respond to
 SERVICE_TOPIC = "/isecg/sample/basicservice"
 

@@ -51,14 +51,3 @@ else
     echo "Need OpenSSL version ${REQ_SSL_VER} or higher"
 fi
 
-### Create certificates
-#cd /vagrant/certs
-#sudo openssl req -new -x509 -days 365 -extensions v3_ca -keyout ca.key -out ca.crt
-### Input Local info
-
-#sudo openssl genrsa -out client.key 2048
-#sudo openssl req -out client.csr -key client.key -new
-### Input Local Info
-
-#sudo openssl x509 -req -in client.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out client.crt -days 365
-#sudo openssl verify -verbose -CAfile ca.crt client.crt

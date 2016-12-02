@@ -22,6 +22,8 @@ from common import *
 logging.getLogger().setLevel(logging.ERROR)
 logger = logging.getLogger(__name__)
 
+CONFIG_FILE = "/vagrant/dxlclient.config"
+
 # The topic to publish to
 EVENT_TOPIC = "/isecg/sample/basicevent"
 
