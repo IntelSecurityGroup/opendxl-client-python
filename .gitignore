@@ -105,7 +105,6 @@ pip-selfcheck.json
 
 .gitignore
 .idea/
-Vagrantfile
 opendxl-client-python.iml
 .vagrant/
 brokercerts
