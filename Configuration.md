@@ -1,5 +1,14 @@
 # Configuration
 
+## How to get repo working
+1. Download Vagrant https://www.vagrantup.com/downloads.html
+2. Run installer for Vagrant
+3. Download Git https://git-scm.com/downloads
+4. Run installer for Git
+5. git clone https://github.com/IntelSecurityGroup/opendxl-client-python.git
+6. cd into opendxl-client-python
+7. Run vssh.sh
+
 ## Create certificates
 ```
 cd /vagrant/certs
