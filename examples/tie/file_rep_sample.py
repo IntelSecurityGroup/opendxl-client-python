@@ -94,3 +94,12 @@ with DxlClient(config) as client:
                                             sha1_hex="3395856ce81f2b7382dee72602f798b642f14140")
     print "EICAR reputation:"
     print json.dumps(response_dict, sort_keys=True, indent=4, separators=(',', ': '))
+
+    #
+    # Request and display reputation for Putty
+    #
+    response_dict = get_tie_file_reputation(client=client,
+                                            md5_hex="BA78410702F0CC8453DA1AFBB2A8B670",
+                                            sha1_hex="1083245AC66D4261F526D18D4EAC79A7DBD72989")
+    print "Putty reputation:"
+    print json.dumps(response_dict, sort_keys=True, indent=4, separators=(',', ': '))

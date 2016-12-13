@@ -51,3 +51,7 @@ else
     echo "Need OpenSSL version ${REQ_SSL_VER} or higher"
 fi
 
+## Setup Flask
+## Use flask run --host=0.0.0.0 to start Flask
+sudo pip install Flask
+sudo echo 'export FLASK_APP=/vagrant/examples/tie/tie_rep_api.py' >> /etc/bash.bashrc

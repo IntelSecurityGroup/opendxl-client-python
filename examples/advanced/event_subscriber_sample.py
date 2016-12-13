@@ -13,8 +13,11 @@ from common import *
 # Configure local logger
 logger = logging.getLogger(__name__)
 
+CONFIG_FILE = "/vagrant/dxlclient.config"
+
 # Sample topic to fire Events on
-EVENT_TOPIC = "/isecg/sample/event"
+#EVENT_TOPIC = "/isecg/sample/event"
+EVENT_TOPIC = "/mcafee/service/tie/management/health"
 
 # Sample Event Subscriber
 try:
