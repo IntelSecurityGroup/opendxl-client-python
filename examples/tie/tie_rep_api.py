@@ -96,7 +96,7 @@ def get_tie_file_reputation(client, md5_hex, sha1_hex):
     #print json.dumps(response_dict, sort_keys=True, indent=4, separators=(',', ': '))
 
 tiescoreMap = {1:'Known Malicious', 15: 'Most Likely Malicious', 30: 'Might Be Malicious',50: 'Unknown',70:"Might Be Trusted",86: "Most Likely Trusted", 99: "Known Trusted"}
-providerMap = {1:'GTI', 3:'Enterprse Reputation'}
+providerMap = {1:'GTI', 3:'Enterprise Reputation'}
 
 ## Start Web API
 
